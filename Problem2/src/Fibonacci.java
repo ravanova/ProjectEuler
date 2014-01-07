@@ -1,8 +1,6 @@
-
 public class Fibonacci {
 
-	
-	static int addEvenNumbers(){
+	static int addEvenNumbers(){ //Calculates and adds all even Fibonacci numbers below 4,000,000
 		int first = 1;
 		int second = 2;
 		int answer;
