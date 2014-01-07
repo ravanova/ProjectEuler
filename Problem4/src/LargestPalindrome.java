@@ -1,8 +1,7 @@
-
 public class LargestPalindrome {
 
-	public static int findLargest(){
-		
+	public static int findLargest(){ //Calculates the largest palindrome made from the product of two 3-digit numbers
+		 
 		for (int i = 999; i > 800; i--){
 			for (int j = 999; j > 800; j--){
 				if(isPalindrome(i*j)){
