@@ -1,7 +1,6 @@
-
 public class SmallestMultiple {
 
-	public static int findSmallest(){
+	public static int findSmallest(){ //Calculates the smallest number that is evenly divisible by all of the numbers from 1 to 20
 		
 		for (int i = 20; true; i+=20){
 			if(i%19 == 0){
