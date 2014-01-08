@@ -1,7 +1,8 @@
-
 public class SumSquare {
 
 	public static int findDifference(int number){
+		//For numbers 1 to 'number', finds the difference
+		//between the sum of the squares and the square of the sum.
 		
 		int sumOfSquares = 0;
 		int squareOfSums = 0;
