@@ -9,6 +9,7 @@ public class PythagoreanTriplet {
 		for(int a = 0; a < 1000; a++){
 			for(int b = a+1; b < 1000; b++){
 				for(int c = b+1; c < 1000; c++){
+					
 					aAndB = (a*a) + (b*b);
 					cSquared = (c*c);
 					if (aAndB == cSquared){
