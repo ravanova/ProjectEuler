@@ -8,7 +8,8 @@ public class LargestProduct {
 	int currentTotal = 0;
 	int highestTotal = 0;
 		for(int i = 4; i < number.length(); i++){
-			currentTotal = (number.charAt(i-4)-48) * (number.charAt(i-3)-48) * (number.charAt(i-2)-48) * (number.charAt(i-1)-48) * (number.charAt(i)-48);
+			currentTotal = (number.charAt(i-4)-48) * (number.charAt(i-3)-48) * (number.charAt(i-2)-48) * 
+			(number.charAt(i-1)-48) * (number.charAt(i)-48);
 			//System.out.println(currentTotal);
 			if (currentTotal > highestTotal){highestTotal = currentTotal;}
 		}
